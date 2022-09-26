@@ -4,7 +4,7 @@ import Header from './components/Header';
 import SolarSystem from './components/SolarSystem';
 import Title from './components/Title';
 
-// const headline = 'xyz';
+const headline = '';
 
 class App extends React.Component {
   render() {
@@ -12,9 +12,7 @@ class App extends React.Component {
       <>
         <Header />
         <SolarSystem />
-        <Title>
-          headline
-        </Title>
+        <Title headline={ headline } />
       </>
     );
   }
