@@ -13,7 +13,7 @@ class Title extends Component {
 }
 
 Title.defaultProps = {
-  headline: '',
+  headline: ' ',
 };
 
 Title.propTypes = {
